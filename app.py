@@ -54,7 +54,7 @@ if query:
             elif chart_type == "Pie Chart":
                 fig = px.pie(df, names=x_col, values=y_col)
                 st.plotly_chart(fig, use_container_width=True)
-                s
+                
             elif chart_type == "Scatter Plot":
                 fig = px.scatter(df, x=x_col, y=y_col, title="Scatter Plot")
                 st.plotly_chart(fig, use_container_width=True)
