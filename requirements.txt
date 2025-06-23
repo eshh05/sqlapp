@@ -1,6 +1,6 @@
 streamlit
 openai
-psycopg2
+psycopg2-binary
 pandas
 python-dotenv
 matplotlib
